@@ -18,7 +18,7 @@ function App() {
   return (
     <Fragment>
 
-      <ConsultarEmprestimo />
+      <MenuInicialBibliotecario />
 
     </Fragment>
   );

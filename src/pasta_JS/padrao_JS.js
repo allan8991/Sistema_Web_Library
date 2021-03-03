@@ -14,8 +14,8 @@ function carregar() {
         document.querySelector("#tela_sair").style.marginLe = "350px";
     });
 
-    //document.querySelector("#tela_sair").addEventListener("click", () => {
-    //    document.getElementById("tela_fundo").style.display = "none";
-    //});
+    document.querySelector("#tela_sair").addEventListener("click", () => {
+       document.getElementById("tela_fundo").style.display = "none";
+    });
 }
 window.addEventListener("load", carregar);

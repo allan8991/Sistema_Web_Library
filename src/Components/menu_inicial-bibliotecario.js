@@ -14,15 +14,15 @@ const MenuInicialBibliotecario = () => {
     return (
         <div className="container-fluid ">
             <div classname="text-white font-weight-bold align-items-center justify-content-center" id="tela_fundo" style={{display:'none'}}>
-                <span classname="mt-2 mr-2 d-flex btn justify-content-end" id="tela_sair">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" classname="bi bi-x" viewBox="0 0 16 16">
+                <span className="mt-2 mr-2 d-flex btn justify-content-end" id="tela_sair">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" className="bi bi-x" viewBox="0 0 16 16">
                         <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
                     </svg>
                 </span>
-                <h1 classname="row justify-content-center align-items-center">Perfil</h1>
-                <hr style={{height:'10px'}} classname="bg-white font-weight-bold w-100" />
-                <a href="editar-perfil.html" id="visualizar_perfil" classname="btn btn-block font-weight-bold btn-success">Editar Perfil</a>
-                <a href="login.html" id="sair_perfil" classname="btn mt-3 font-weight-bold btn-block btn-danger">Logout</a>
+                <h1 className="row justify-content-center align-items-center">Perfil</h1>
+                <hr style={{height:'10px'}} className="bg-white font-weight-bold w-100" />
+                <a href="editar-perfil.html" id="visualizar_perfil" className="btn btn-block font-weight-bold btn-success">Editar Perfil</a>
+                <a href="login.html" id="sair_perfil" className="btn mt-3 font-weight-bold btn-block btn-danger">Logout</a>
             </div>
 
             <header className="row justify-content-start align-items-center cabecalho text-white">
