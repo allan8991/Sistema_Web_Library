@@ -13,8 +13,16 @@ import '../pasta_JS/padrao_JS';
 const MenuInicialBibliotecario = () => {
     return (
         <div className="container-fluid ">
-            <div className="text-white font-weight-bold align-items-center justify-content-center ajuste5" id="tela_fundo" >
-               
+            <div classname="text-white font-weight-bold align-items-center justify-content-center" id="tela_fundo" style={{display:'none'}}>
+                <span classname="mt-2 mr-2 d-flex btn justify-content-end" id="tela_sair">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" classname="bi bi-x" viewBox="0 0 16 16">
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </span>
+                <h1 classname="row justify-content-center align-items-center">Perfil</h1>
+                <hr style={{height:'10px'}} classname="bg-white font-weight-bold w-100" />
+                <a href="editar-perfil.html" id="visualizar_perfil" classname="btn btn-block font-weight-bold btn-success">Editar Perfil</a>
+                <a href="login.html" id="sair_perfil" classname="btn mt-3 font-weight-bold btn-block btn-danger">Logout</a>
             </div>
 
             <header className="row justify-content-start align-items-center cabecalho text-white">
@@ -33,17 +41,11 @@ const MenuInicialBibliotecario = () => {
 
             <footer className="row rodape justify-content-center text-white">
                 <div className="d-flex p-3 align-items-center">
-                    <img src={ btnLogoRodape } alt="Logo da University Library" />
+                    <img src={btnLogoRodape} alt="Logo da University Library" />
                     <h6 className="p-1 font-weight-bold">University Library (2021)</h6>
                 </div>
             </footer>
         </div>
-
-
-
-
-
-
 
     );
 }

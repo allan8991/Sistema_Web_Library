@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import CapaLivro from './IMG/capa-livro-exemplo.svg';
 import btnVoltar from './IMG/left-arrow-white.svg';
-import btnCapaLivro from './IMG/capa-livro-exemplo.svg';
 import Rodape from './CorpoPagina/rodape';
 
 
 
-const EmprestimoConsultarEmprestimo = () => {
+const ConsultarEmprestimo = () => {
     return (
         <div className="container-fluid d-flex flex-column">
 
@@ -35,16 +35,17 @@ const EmprestimoConsultarEmprestimo = () => {
                         </tr>
                     </table>
 
+
                     <div className="align-items-start mt-4 w-100">
                         <h3 className="text-center">Livros:</h3>
                         <div className="d-flex flex-column flex-sm-row justify-content-center livros">
                             <a href="emprestimo_renovar-emprestimo-confirmacao.html" className="d-flex flex-column w-100 p-2 m-3">
-                                <img src={btnCapaLivro} alt="Livro fechado" className="ajuste2" /><br />
+                                <img src={CapaLivro} alt="Livro fechado" className="size-book-10" /><br />
                                 <h4 className="text-center">Cálculo Vol.1</h4>
                             </a>
 
                             <a href="emprestimo_renovar-emprestimo-confirmacao.html" className="d-flex flex-column w-100 p-2 m-3">
-                                <img src={btnCapaLivro} alt="Livro fechado" className="ajuste2" /><br />
+                                <img src={CapaLivro} alt="Livro fechado" className="size-book-10" /><br />
                                 <h4 class="text-center">Algebra Linear</h4>
                             </a>
                         </div>
@@ -57,4 +58,4 @@ const EmprestimoConsultarEmprestimo = () => {
     );
 }
 
-export default EmprestimoConsultarEmprestimo;
+export default ConsultarEmprestimo;
