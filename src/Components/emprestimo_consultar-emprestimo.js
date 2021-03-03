@@ -46,7 +46,7 @@ const ConsultarEmprestimo = () => {
 
                             <a href="emprestimo_renovar-emprestimo-confirmacao.html" className="d-flex flex-column w-100 p-2 m-3">
                                 <img src={CapaLivro} alt="Livro fechado" className="size-book-10" /><br />
-                                <h4 class="text-center">Algebra Linear</h4>
+                                <h4 className="text-center">Algebra Linear</h4>
                             </a>
                         </div>
                     </div>

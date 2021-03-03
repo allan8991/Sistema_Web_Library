@@ -11,7 +11,7 @@ const CadastrarUsuario = () => {
 
             <section className="perfil_ajuste row justify-content-center corpo_login p-3">
                 <form className="row flex-column perfil_formulario col-12 col-sm-10 col-md-6 col-lg-5 col-xl-4 form w-25" action="#" method="POST">
-                    <input class=" box_perfil input_login w-100" type="text" name="nome" placeholder="Nome Completo" autofocus />
+                    <input className=" box_perfil input_login w-100" type="text" name="nome" placeholder="Nome Completo" autofocus />
 
                     <div className="ajuste1">
                         <span className="font-weight-bold dark ml-1 mr-1 h5"> Categoria:</span>

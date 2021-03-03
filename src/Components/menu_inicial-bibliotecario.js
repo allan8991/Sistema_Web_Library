@@ -8,8 +8,6 @@ import btnCadastrarUsuario from './IMG/Botoes/btn_CadastrarUsuario.jpg';
 import '../pasta_JS/padrao_JS';
 
 
-
-
 const MenuInicialBibliotecario = () => {
     return (
         <div className="container-fluid ">
@@ -46,7 +44,6 @@ const MenuInicialBibliotecario = () => {
                 </div>
             </footer>
         </div>
-
     );
 }
 export default MenuInicialBibliotecario;
