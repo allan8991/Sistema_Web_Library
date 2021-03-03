@@ -428,7 +428,7 @@ border-radius: 10px;
 
 /*---------------------------------------------------------------------------------------------------*/
 
-/*-----------------------------------------ajustes(pegando style inline em style externo)---------------*/
+/*-----------------------------------------ajustes(pegando style inline e trocando por style externo)---------------*/
 
 .ajuste1{
     border: 2px solid gray;
@@ -438,6 +438,15 @@ border-radius: 10px;
 .ajuste2{
     max-height: 10rem;
 }
+.ajuste3{
+    max-height:150px;
+}
+.ajuste4{
+    max-width: 160px;
 
+}
+.ajuste5{
+    display:none;
+}
 
 /*------------------------------------------------------------------------------------------------------*/

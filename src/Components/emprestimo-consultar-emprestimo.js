@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import btnVoltar from './IMG/left-arrow-white.svg';
 import btnCapaLivro from './IMG/capa-livro-exemplo.svg';
 import btnLogoRodape from './IMG/logo-University-Library.svg';

@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import btnVoltar from './IMG/left-arrow-white.svg';
 
 
 
 const CadastrarUsuario = () => {
     return (
-
+        
         <div className="container-fluid  d-flex flex-column">
             <header className="row mb-0  justify-content-start align-items-center cabecalho_email cabecalho_perfil">
                 <img className="mr-2 ml-3 text-white h6" src={btnVoltar} alt="Seta branca indicando voltar" />
@@ -38,6 +38,7 @@ const CadastrarUsuario = () => {
                 </form>
             </section>
         </div>
+
     );
 }
 

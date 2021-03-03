@@ -1,5 +1,5 @@
 function carregar(){
-document.querySelector("header img").addEventListener("click",()=>{
+    document.querySelector("header img").addEventListener("click",()=>{
     document.getElementById("tela_fundo").style.backgroundColor="#436D7C";
     document.getElementById("tela_fundo").style.display="block";
     document.querySelector("#tela_fundo").style.height="400px";
