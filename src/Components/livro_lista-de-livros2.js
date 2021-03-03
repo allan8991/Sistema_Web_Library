@@ -1,6 +1,6 @@
 import React from 'react';
 import btnVoltar from './IMG/left-arrow-white.svg';
-import btnLogoRodape from './IMG/logo-University-Library.svg';
+import Rodape from './CorpoPagina/rodape';
 
 const LivroListaDeLivros2 = () => {
     return (
@@ -18,16 +18,9 @@ const LivroListaDeLivros2 = () => {
                 </form>
             </section>
 
-            <footer className="row rodape justify-content-center text-white">
-                <div className="d-flex p-3 align-items-center">
-                    <img src={btnLogoRodape} alt="Logo da University Library" />
-                    <h6 className="p-1 font-weight-bold">University Library (2021)</h6>
-                </div>
-            </footer>
+            <Rodape />
         </div>
-
-
-
+        
     );
 }
 export default LivroListaDeLivros2;
