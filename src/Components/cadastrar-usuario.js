@@ -1,13 +1,11 @@
 import React from 'react';
-import btnVoltar from './IMG/left-arrow-white.svg';
+import Cabecalho from './CorpoPagina/cabecalho-voltar';
 
 const CadastrarUsuario = () => {
     return (
         <div className="container-fluid d-flex flex-column">
-            <header className="row mb-0 justify-content-start align-items-center cabecalho_email cabecalho_perfil">
-                <img className="mr-2 ml-3 text-white h6" src={btnVoltar} alt="Seta branca indicando voltar" />
-                <span className="text-white h4" >Cadastrar Usuário</span>
-            </header>
+            
+            <Cabecalho titulo="Cadastrar Usuário"/>
 
             <section className="perfil_ajuste row justify-content-center corpo_login p-3">
                 <form className="row flex-column perfil_formulario col-12 col-sm-10 col-md-6 col-lg-5 col-xl-4 form w-25" action="#" method="POST">

@@ -1,5 +1,5 @@
 import React from 'react';
-import btnVoltar from './IMG/left-arrow-white.svg';
+import Cabecalho from './CorpoPagina/cabecalho-voltar';
 import CapaLivro from './IMG/capa-livro-exemplo.svg';
 import Rodape from './CorpoPagina/rodape';
 
@@ -9,10 +9,7 @@ const EmprestimoConsultarEmprestimo = () => {
     return (
         <div className="container-fluid d-flex flex-column">
 
-            <header className="row justify-content-start align-items-center cabecalho text-white">
-                <img className="mr-2 ml-3 h6" src={btnVoltar} alt="Seta representando voltar" />
-                <span className="h3">Consultar Empréstimo</span>
-            </header>
+            <Cabecalho titulo="Consultar Empréstimo" />
 
             <section className="row justify-content-center flex-grow-1">
                 <div className="row col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6 p-5 align-items-start conteudo">

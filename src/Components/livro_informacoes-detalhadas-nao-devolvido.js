@@ -1,19 +1,14 @@
 import React from 'react';
-import btnVoltar from './IMG/left-arrow-white.svg';
+import Cabecalho from './CorpoPagina/cabecalho-voltar';
 import btnCapaLivro from './IMG/capa-livro-exemplo.svg';
 import Rodape from './CorpoPagina/rodape';
 
 
 const LivroInformacoesDetalhadasNaoDevolvido = () => {
-
-
     return (
-
         <div className="container-fluid ">
-            <header className="row justify-content-start align-items-center cabecalho text-white">
-                <img className="mr-2 ml-3 h6" src={btnVoltar} alt="Seta representando voltar" />
-                <span className="h3">Informações Detalhadas</span>
-            </header>
+
+            <Cabecalho titulo="Informações Detalhadas" />
 
             <section className="row justify-content-center align-items-start flex-grow-1">
                 <div className="row col-sm-8 col-md-7 col-lg-5 col-xl-4 justify-content-center p-0">

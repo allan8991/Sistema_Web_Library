@@ -1,14 +1,12 @@
-import React, { Fragment } from 'react';
-import btnVoltar from './IMG/left-arrow-white.svg';
+import React from 'react';
+import Cabecalho from './CorpoPagina/cabecalho-voltar';
 import Rodape from './CorpoPagina/rodape';
 
 const ManterEmprestimo = () => {
     return (
         <div className="container-fluid">
-            <header className="row justify-content-start align-items-center cabecalho text-white">
-                <img className="mr-2 ml-3 h6" src={btnVoltar} alt="Seta representando voltar" />
-                <span className="h3">Manter Empréstimo</span>
-            </header>
+
+            <Cabecalho titulo="Manter Empréstimo" />
 
             <section className="row  justify-content-center align-items-center corpo_renovar1">
                 <div className="row ajustar_manter_emprestimo  justify-content-center align-items-start   col-sm-10 col-md-7 col-lg-6 col-xl-4 conteudo1">

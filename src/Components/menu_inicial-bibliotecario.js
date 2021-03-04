@@ -6,7 +6,6 @@ import btnManterEmprestimos from './IMG/Botoes/btn_ManterEmprestimos.jpg';
 import btnRelatorios from './IMG/Botoes/btn_Relatorios.jpg';
 import btnProFileUserWhite from './IMG/profile-user-white.svg';
 
-
 const MenuInicialBibliotecario = () => {
     return (
         <div className="container-fluid ">
