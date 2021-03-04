@@ -1,14 +1,12 @@
 import React, { Fragment } from 'react';
 import Rodape from './CorpoPagina/rodape';
-import btnVoltar from './IMG/left-arrow-white.svg';
+import Cabecalho from './CorpoPagina/cabecalho-voltar';
 
 const EncerrarEmprestimo = () => {
     return (
         <div className="container-fluid">
-            <header className="row justify-content-start align-items-center cabecalho text-white">
-                <img className="mr-2 ml-3 h6" src={btnVoltar} alt="Seta representando voltar" />
-                <span className="h3">Encerrar Empréstimo</span>
-            </header>
+            
+            <Cabecalho titulo="Encerrar Empréstimo" />
 
             <section className="row justify-content-center corpo_login mt-5">
                 <form className="formulario_email col-12 col-sm-10 col-md-7 col-lg-7 col-xl-5 h-100 w-25" action="#" method="POST">

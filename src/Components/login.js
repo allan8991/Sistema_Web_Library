@@ -4,7 +4,6 @@ import btnLogoUniversityLibrary from './IMG/logo-University-Library.svg';
 const Login = () => {
 
     return (
-
         <div className="container-fluid">
             <header className="d-flex justify-content-center align-items-center">
                 <img src={btnLogoUniversityLibrary} alt="A imagem da logo não carregou" className="mt-5 ajuste4 mb-3" />
@@ -20,7 +19,5 @@ const Login = () => {
             </section>
         </div>
     );
-
-
 }
 export default Login;

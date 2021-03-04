@@ -1,15 +1,12 @@
 import React from 'react';
-import btnVoltar from './IMG/left-arrow-white.svg';
-
+import Cabecalho from './CorpoPagina/cabecalho-voltar';
 
 const LivroAtualizarLivro = () => {
 
     return(
     <div className="container-fluid d-flex flex-column">
-        <header className="row mb-0 text-white justify-content-start align-items-center cabecalho_email cabecalho_perfil">
-            <img className="mr-2 ml-3 h6" src={btnVoltar} alt="Seta representando voltar" />
-            <span className="h3">Atualizar Livro</span>
-        </header>
+
+        <Cabecalho titulo="Atualizar Livro" />
 
         <section className="perfil_ajuste  row  justify-content-center  corpo_login  ">
             <form className="row flex-column perfil_formulario col-12 col-sm-9 col-md-7 col-lg-6 col-xl-4 form w-25" action="#" method="POST" >

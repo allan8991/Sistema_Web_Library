@@ -1,6 +1,6 @@
 import React from 'react';
-import btnVoltar from './IMG/left-arrow-white.svg';
-import btnCapaLivro from './IMG/capa-livro-exemplo.svg';
+import Cabecalho from './CorpoPagina/cabecalho-voltar';
+import CapaLivro from './IMG/capa-livro-exemplo.svg';
 import Rodape from './CorpoPagina/rodape';
 
 
@@ -9,10 +9,7 @@ const EmprestimoConsultarEmprestimo = () => {
     return (
         <div className="container-fluid d-flex flex-column">
 
-            <header className="row justify-content-start align-items-center cabecalho text-white">
-                <img className="mr-2 ml-3 h6" src={btnVoltar} alt="Seta representando voltar" />
-                <span className="h3">Consultar Empréstimo</span>
-            </header>
+            <Cabecalho titulo="Consultar Empréstimo" />
 
             <section className="row justify-content-center flex-grow-1">
                 <div className="row col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6 p-5 align-items-start conteudo">
@@ -39,13 +36,13 @@ const EmprestimoConsultarEmprestimo = () => {
                         <h3 className="text-center">Livros:</h3>
                         <div className="d-flex flex-column flex-sm-row justify-content-center livros">
                             <a href="emprestimo_renovar-emprestimo-confirmacao.html" className="d-flex flex-column w-100 p-2 m-3">
-                                <img src={btnCapaLivro} alt="Livro fechado" className="ajuste2" /><br />
+                                <img src={CapaLivro} alt="Livro fechado" className="ajuste2" /><br />
                                 <h4 className="text-center">Cálculo Vol.1</h4>
                             </a>
 
                             <a href="emprestimo_renovar-emprestimo-confirmacao.html" className="d-flex flex-column w-100 p-2 m-3">
-                                <img src={btnCapaLivro} alt="Livro fechado" className="ajuste2" /><br />
-                                <h4 class="text-center">Algebra Linear</h4>
+                                <img src={CapaLivro} alt="Livro fechado" className="ajuste2" /><br />
+                                <h4 classname="text-center">Algebra Linear</h4>
                             </a>
                         </div>
                     </div>

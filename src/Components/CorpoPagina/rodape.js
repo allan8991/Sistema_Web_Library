@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import LogoRodape from '../IMG/logo-University-Library.svg';
 
 const Rodape = () => {
