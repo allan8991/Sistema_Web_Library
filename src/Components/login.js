@@ -1,12 +1,12 @@
 import React from 'react';
-import btnLogoUniversityLibrary from './IMG/logo-University-Library.svg';
+import LogoUniversityLibrary from './IMG/logo-University-Library.svg';
 
 const Login = () => {
 
     return (
         <div className="container-fluid">
             <header className="d-flex justify-content-center align-items-center">
-                <img src={btnLogoUniversityLibrary} alt="A imagem da logo não carregou" className="mt-5 ajuste4 mb-3" />
+                <img src={LogoUniversityLibrary} alt="A imagem da logo não carregou" className="mt-5 ajuste4 mb-3" />
             </header>
             <section className="d-flex justify-content-center mx-2 my-1">
                 <form className="col-sm-8 col-md-7 col-lg-6 col-xl-3 form w-100" action="#" method="POST">
