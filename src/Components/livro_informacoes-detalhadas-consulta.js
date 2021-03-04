@@ -1,7 +1,7 @@
 import React from 'react';
 import Cabecalho from './CorpoPagina/cabecalho-voltar';
-import btnCapaLivro from './IMG/capa-livro-exemplo.svg';
 import Rodape from './CorpoPagina/rodape';
+import CapaLivro from './IMG/capa-livro-exemplo.svg';
 
 const LivroInformacoesDetalhadasConsulta = () => {
   return (
@@ -13,7 +13,7 @@ const LivroInformacoesDetalhadasConsulta = () => {
         <div className="row col-sm-8 col-md-7 col-lg-5 col-xl-4 justify-content-center p-0">
           <div className="row conteudo justify-content-center px-3 py-5 mx-0 w-100">
 
-            <img src={btnCapaLivro} alt="Livro fechado" className="ajuste3" />
+            <img src={CapaLivro} alt="Livro fechado" className="ajuste3" />
 
             <div className="table-responsive">
               <table className="table table-striped mt-5">

@@ -1,11 +1,13 @@
 import React from 'react';
-import CapaLivro from './IMG/capa-livro-exemplo.svg';
+import Cabecalho from './CorpoPagina/cabecalho-voltar';
 import Rodape from './CorpoPagina/rodape';
-// import Cabecalho from './CorpoPagina/cabecalho-voltar';
+import CapaLivro from './IMG/capa-livro-exemplo.svg';
 
 const RenovarEmprestimoConfirmacao = () => {
     return (
         <div className="container-fluid ">
+
+            <Cabecalho titulo="Renovar Empréstimo" />
 
             <section className="row justify-content-center align-items-start flex-grow-1">
                 <div className="row col-sm-8 col-md-7 col-lg-5 col-xl-4 justify-content-center p-0">
@@ -86,7 +88,7 @@ const RenovarEmprestimoConfirmacao = () => {
                         </div>
 
                         <h3 className="h4 text-center">Deseja renovar o empréstimo para o dia (20/04/2020)?</h3>
-                        <a href="" id="sim" className="btn align-self-end text-white botao">SIM</a>
+                        <a href="#" id="sim" className="btn align-self-end text-white botao">SIM</a>
 
                     </div>
                 </div>

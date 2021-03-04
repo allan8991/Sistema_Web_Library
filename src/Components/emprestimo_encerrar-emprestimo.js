@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react';
-import Rodape from './CorpoPagina/rodape';
+import React from 'react';
 import Cabecalho from './CorpoPagina/cabecalho-voltar';
+import Rodape from './CorpoPagina/rodape';
 
 const EncerrarEmprestimo = () => {
     return (

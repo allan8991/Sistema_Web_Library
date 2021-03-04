@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Cabecalho from './CorpoPagina/cabecalho-voltar';
 import Rodape from './CorpoPagina/rodape';
 

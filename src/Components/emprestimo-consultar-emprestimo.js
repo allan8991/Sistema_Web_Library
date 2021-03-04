@@ -1,7 +1,7 @@
 import React from 'react';
 import Cabecalho from './CorpoPagina/cabecalho-voltar';
-import CapaLivro from './IMG/capa-livro-exemplo.svg';
 import Rodape from './CorpoPagina/rodape';
+import CapaLivro from './IMG/capa-livro-exemplo.svg';
 
 
 

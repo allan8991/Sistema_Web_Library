@@ -1,10 +1,9 @@
 import React from 'react';
-import btnProFileUserWhite from './IMG/profile-user-white.svg';
-import btnLogoRodape from './IMG/logo-University-Library.svg';
+import Rodape from './CorpoPagina/rodape';
+import btnCadastrarUsuario from './IMG/Botoes/btn_CadastrarUsuario.jpg';
 import btnManterEmprestimos from './IMG/Botoes/btn_ManterEmprestimos.jpg';
 import btnRelatorios from './IMG/Botoes/btn_Relatorios.jpg';
-import btnLivros from './IMG/Botoes/btn_Livros.jpg';
-import btnCadastrarUsuario from './IMG/Botoes/btn_CadastrarUsuario.jpg';
+import btnProFileUserWhite from './IMG/profile-user-white.svg';
 
 
 
@@ -57,12 +56,7 @@ const MenuInicialBibliotecario = () => {
                 </div>
             </section>
 
-            <footer className="row rodape justify-content-center text-white">
-                <div className="d-flex p-3 align-items-center">
-                    <img src={btnLogoRodape} alt="Logo da University Library" />
-                    <h6 className="p-1 font-weight-bold">University Library (2021)</h6>
-                </div>
-            </footer>
+            <Rodape />
         </div>
 
     );
