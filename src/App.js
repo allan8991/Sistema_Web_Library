@@ -15,12 +15,15 @@ import ManterEmprestimo from './Components/emprestimo_manter-emprestimo';
 import RegistrarEmprestimo from './Components/emprestimo_registrar-emprestimo'
 import MenuInicialUsuario from './Components/menu_inicial-usuario'
 import BemVindo from './Components/bem-vindo';
+import RelatorioDevolucoesLivros from './Components/relatorio_livros-devolucao';
+import RelatorioLivrosEmprestado from './Components/relatorio_livros-emprestados';
+import RelatorioOpcoes from './Components/relatorios';
 
 function App() {
   return (
     <Fragment>
 
-      <BemVindo />
+      <Login />
 
     </Fragment>
   );
