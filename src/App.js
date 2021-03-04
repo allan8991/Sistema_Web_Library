@@ -13,12 +13,14 @@ import EncerrarEmprestimoConfirmacao from './Components/emprestimo_encerrar-empr
 import EncerrarEmprestimo from './Components/emprestimo_encerrar-emprestimo';
 import ManterEmprestimo from './Components/emprestimo_manter-emprestimo';
 import RegistrarEmprestimo from './Components/emprestimo_registrar-emprestimo'
+import MenuInicialUsuario from './Components/menu_inicial-usuario'
+import BemVindo from './Components/bem-vindo';
 
 function App() {
   return (
     <Fragment>
 
-      <ConsultarEmprestimo />
+      <BemVindo />
 
     </Fragment>
   );

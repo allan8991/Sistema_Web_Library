@@ -36,12 +36,12 @@ const EmprestimoConsultarEmprestimo = () => {
                         <h3 className="text-center">Livros:</h3>
                         <div className="d-flex flex-column flex-sm-row justify-content-center livros">
                             <a href="emprestimo_renovar-emprestimo-confirmacao.html" className="d-flex flex-column w-100 p-2 m-3">
-                                <img src={CapaLivro} alt="Livro fechado" className="ajuste2" /><br />
+                                <img src={CapaLivro} alt="Livro fechado" className="size-book-10" /><br />
                                 <h4 className="text-center">Cálculo Vol.1</h4>
                             </a>
 
                             <a href="emprestimo_renovar-emprestimo-confirmacao.html" className="d-flex flex-column w-100 p-2 m-3">
-                                <img src={CapaLivro} alt="Livro fechado" className="ajuste2" /><br />
+                                <img src={CapaLivro} alt="Livro fechado" className="size-book-10" /><br />
                                 <h4 classname="text-center">Algebra Linear</h4>
                             </a>
                         </div>

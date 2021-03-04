@@ -435,8 +435,8 @@ border-radius: 10px;
      border-radius: 5px;
       height: 4.9rem;
 }
-.ajuste2{
-    max-height: 10rem;
+.size-book-10{
+    max-height:10rem;
 }
 .ajuste3{
     max-height:150px;
@@ -449,8 +449,5 @@ border-radius: 10px;
     display:none;
 }
 
-.size-book-10{
-    max-height:10rem;
-}
 
 /*------------------------------------------------------------------------------------------------------*/
