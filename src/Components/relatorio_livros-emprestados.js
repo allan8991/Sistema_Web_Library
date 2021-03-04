@@ -5,27 +5,27 @@ import info_img from './IMG/information-color.svg';
 
 const RelatorioLivrosEmprestado = () => {
     return (
-        <div class="container-fluid d-flex flex-column">
+        <div className="container-fluid d-flex flex-column">
 
             <CabecalhoVoltar titulo="Relatório de Livros Emprestados" />
 
-            <section class="row justify-content-center align-items-start flex-grow-1">
-                <div class="row col-12 col-sm-10 col-md-9 col-lg-8 col-xl-7 justify-content-center p-0">
+            <section className="row justify-content-center align-items-start flex-grow-1">
+                <div className="row col-12 col-sm-10 col-md-9 col-lg-8 col-xl-7 justify-content-center p-0">
 
-                    <div class="w-100 conteudo mx-0">
-                        <div class="d-flex w-100 justify-content-center m-0">
-                            <form class="px-3 pt-3 justify-content-center" action="#" method="">
-                                <h2 class="h4 mb-0">Filtro:</h2>
-                                <input class="input_login d-block w-100" type="text" name="titulo" placeholder="Título do Livro" />
-                                <input class="input_login d-block d-sm-inline" type="date" name="data-inicio" placeholder="Data Início" />
-                                <input class="input_login d-block d-sm-inline" type="date" name="data-fim" placeholder="Data Fim" />
-                                <input class="btn btn-block align-self-center d-block" id="enviar" type="submit" value="Filtrar" />
+                    <div className="w-100 conteudo mx-0">
+                        <div className="d-flex w-100 justify-content-center m-0">
+                            <form className="px-3 pt-3 justify-content-center" action="#" method="">
+                                <h2 className="h4 mb-0">Filtro:</h2>
+                                <input className="input_login d-block w-100" type="text" name="titulo" placeholder="Título do Livro" />
+                                <input className="input_login d-block d-sm-inline" type="date" name="data-inicio" placeholder="Data Início" />
+                                <input className="input_login d-block d-sm-inline" type="date" name="data-fim" placeholder="Data Fim" />
+                                <input className="btn btn-block align-self-center d-block" id="enviar" type="submit" value="Filtrar" />
                             </form>
                         </div>
 
-                        <div class="table-responsive-sm">
-                            <table class="table table-hover table-sm table-striped">
-                                <thead class="thead-dark">
+                        <div className="table-responsive-sm">
+                            <table className="table table-hover table-sm table-striped">
+                                <thead className="thead-dark">
                                     <tr>
                                         <th scope="col">#</th>
                                         <th scope="col">Título</th>
@@ -44,7 +44,7 @@ const RelatorioLivrosEmprestado = () => {
                                         <td>30/04/2020</td>
                                         <td>
                                             <a href="livro_informacoes-detalhadas.html">
-                                                <img src={info_img} alt="Informação" class="mx-auto d-block mw-15rem" />
+                                                <img src={info_img} alt="Informação" className="mx-auto d-block mw-15rem" />
                                             </a>
                                         </td>
                                     </tr>
@@ -56,7 +56,7 @@ const RelatorioLivrosEmprestado = () => {
                                         <td>15/04/2020</td>
                                         <td>
                                             <a href="livro_informacoes-detalhadas.html">
-                                                <img src={info_img} alt="Informação" class="mx-auto d-block mw-15rem" />
+                                                <img src={info_img} alt="Informação" className="mx-auto d-block mw-15rem" />
                                             </a>
                                         </td>
                                     </tr>
@@ -68,7 +68,7 @@ const RelatorioLivrosEmprestado = () => {
                                         <td>30/04/2020</td>
                                         <td>
                                             <a href="livro_informacoes-detalhadas.html">
-                                                <img src={info_img} alt="Informação" class="mx-auto d-block mw-15rem" />
+                                                <img src={info_img} alt="Informação" className="mx-auto d-block mw-15rem" />
                                             </a>
                                         </td>
                                     </tr><tr>
@@ -79,7 +79,7 @@ const RelatorioLivrosEmprestado = () => {
                                         <td>30/04/2020</td>
                                         <td>
                                             <a href="livro_informacoes-detalhadas.html">
-                                                <img src={info_img} alt="Informação" class="mx-auto d-block mw-15rem" />
+                                                <img src={info_img} alt="Informação" className="mx-auto d-block mw-15rem" />
                                             </a>
                                         </td>
                                     </tr>
@@ -91,7 +91,7 @@ const RelatorioLivrosEmprestado = () => {
                                         <td>15/04/2020</td>
                                         <td>
                                             <a href="livro_informacoes-detalhadas.html">
-                                                <img src={info_img} alt="Informação" class="mx-auto d-block mw-15rem" />
+                                                <img src={info_img} alt="Informação" className="mx-auto d-block mw-15rem" />
                                             </a>
                                         </td>
                                     </tr>
@@ -103,7 +103,7 @@ const RelatorioLivrosEmprestado = () => {
                                         <td>30/04/2020</td>
                                         <td>
                                             <a href="livro_informacoes-detalhadas.html">
-                                                <img src={info_img} alt="Informação" class="mx-auto d-block mw-15rem" />
+                                                <img src={info_img} alt="Informação" className="mx-auto d-block mw-15rem" />
                                             </a>
                                         </td>
                                     </tr>
